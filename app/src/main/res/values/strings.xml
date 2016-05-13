@@ -10,4 +10,6 @@
     <string name="title_activity_create_expense">CreateExpenseActivity</string>
     <string name="username">Username</string>
     <string name="submit">Submit</string>
+    <string name="expense_name">Expense Name</string>
+    <string name="amount_due">Amount Due</string>
 </resources>

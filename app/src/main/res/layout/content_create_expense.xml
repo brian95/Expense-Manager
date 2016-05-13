@@ -13,4 +13,23 @@
     tools:context="com.example.brianmote.expensemanager.CreateExpenseActivity"
     tools:showIn="@layout/activity_create_expense">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expenseNameField"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/expense_name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/expenseAmount"
+        android:layout_below="@+id/expenseNameField"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/amount_due"/>
 </RelativeLayout>
